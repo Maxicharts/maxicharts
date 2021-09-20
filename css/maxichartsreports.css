@@ -1,0 +1,39 @@
+.information_source {
+	display: block;
+	width: 100%;
+	background-color: #F0F0F0;
+	border-radius: 4px;
+	padding: 10px;
+	margin: 5px 0;
+	font-size: 0.8em;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #cacaca;
+}
+
+.chart_branding {
+	font-size: 0.7rem;
+    width: 100%;
+    text-align: right;
+    display: block;
+}
+
+#chartjs-tooltip {
+	opacity: 1;
+	position: absolute;
+	background: rgba(0, 0, 0, .7);
+	color: white;
+	border-radius: 3px;
+	-webkit-transition: all .1s ease;
+	transition: all .1s ease;
+	pointer-events: none;
+	-webkit-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
+}
+
+.chartjs-tooltip-key {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin-right: 10px;
+}

@@ -1,0 +1,6 @@
+parameters:
+    visibilityLevels: [public, protected] # array
+    annotationGroups: [todo, deprecated] # array
+    title: "GF Charts Reports Docs" # string
+    baseUrl: "http://apigen.org/api" # string
+    overwrite: false # bool
